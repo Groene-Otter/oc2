@@ -1,3 +1,9 @@
+# [1.1.0](https://github.com/Groene-Otter/oc2/compare/v1.0.1...v1.1.0) (2024-07-18)
+
+### Features
+
+- improve many small things with new style ([c50e62a](https://github.com/Groene-Otter/oc2/commit/c50e62ae5794fdc8ff8834b5639e2f64c193a565))
+
 ## [1.0.1](https://github.com/Groene-Otter/oc2/compare/v1.0.0...v1.0.1) (2024-07-18)
 
 ### Bug Fixes

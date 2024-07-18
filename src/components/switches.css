@@ -23,7 +23,7 @@
     opacity: 0;
 
     &:checked ~ .slider {
-      background-color: var(--brand);
+      background-color: color-mix(in srgb, var(--brand) 70%, var(--surface-0));
 
       &:after {
         left: calc(
@@ -40,11 +40,7 @@
     }
 
     &:checked:disabled ~ .slider {
-      background: linear-gradient(
-        var(--gradient-angle),
-        var(--brand-1),
-        var(--brand-2)
-      );
+      background-color: color-mix(in srgb, var(--brand) 70%, black);
 
       &:after {
         border-color: var(--gray-3);
@@ -75,6 +71,7 @@
       background-color: var(--gray-0);
       display: block;
       border-radius: var(--radius-round);
+      box-shadow: var(--shadow-2);
     }
   }
 }

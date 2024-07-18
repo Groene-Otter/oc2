@@ -1,6 +1,7 @@
 :where(html) {
   --surface-0: white;
   --surface-contrast: var(--gray-9);
+  --surface-neutral: var(--gray-5);
   --text-3: var(--gray-6); /* same for light and dark */
   --text-contrast: var(--gray-0);
 }
@@ -9,6 +10,7 @@
   :where(html) {
     --surface-0: var(--gray-10);
     --surface-contrast: var(--gray-0);
+    --surface-neutral: var(--gray-6);
     --text-contrast: var(--gray-9);
   }
 }

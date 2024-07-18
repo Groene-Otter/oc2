@@ -12,13 +12,13 @@
   gap: var(--size-relative-2);
   border: var(--border-size-1) solid transparent;
 
-  color: var(--gray-1);
+  color: var(--gray-12);
   font-weight: var(--font-weight-5);
 
-  transition-duration: var(--default-animation-time);
+  transition: background-color var(--default-animation-time) ease-in-out;
 
   &:hover {
-    background-color: color-mix(in srgb, var(--button-color) 80%, white);
+    background-color: color-mix(in srgb, var(--button-color) 90%, black);
   }
 
   &:active {
@@ -33,8 +33,8 @@
 
   &.outline {
     background-color: transparent;
-    color: var(--button-color);
-    border-color: var(--button-color);
+    border-color: var(--text-1);
+    color: var(--text-1);
 
     &:hover {
       background-color: color-mix(
@@ -102,9 +102,9 @@
   }
 
   &.danger {
-    --button-color: var(--red-9);
+    --button-color: oklch(from var(--brand) l c 30);
   }
   &.warning {
-    --button-color: var(--yellow-7);
+    --button-color: oklch(from var(--brand) l c 60);
   }
 }

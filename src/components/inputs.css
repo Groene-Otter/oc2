@@ -27,7 +27,7 @@
   }
 
   &:where(.invalid) {
-    outline: var(--border-size-1) solid var(--red-9);
+    outline: var(--border-size-1) solid oklch(from var(--brand) 50% c 30);
   }
 
   &[type="search"] {

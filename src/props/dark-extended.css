@@ -1,5 +1,6 @@
 :where([data-theme="dark"], .dark, .dark-theme) {
   --surface-0: var(--gray-12);
   --surface-contrast: var(--gray-0);
+  --surface-neutral: var(--gray-6);
   --text-contrast: var(--gray-9);
 }

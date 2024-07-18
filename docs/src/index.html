@@ -29,55 +29,9 @@
         </a>
       </div>
     </nav>
-    <section>
-      <h2>Pick your brand color</h2>
-      <span data-color-picker="true" class="gray" data-tooltip="gray"></span>
-      <span data-color-picker="true" class="stone" data-tooltip="stone"></span>
-      <span data-color-picker="true" class="red" data-tooltip="red"></span>
-      <span data-color-picker="true" class="pink" data-tooltip="pink"></span>
-      <span
-        data-color-picker="true"
-        class="purple"
-        data-tooltip="purple"
-      ></span>
-      <span
-        data-color-picker="true"
-        class="violet"
-        data-tooltip="violet"
-      ></span>
-      <span
-        data-color-picker="true"
-        class="indigo"
-        data-tooltip="indigo"
-      ></span>
-      <span data-color-picker="true" class="blue" data-tooltip="blue"></span>
-      <span data-color-picker="true" class="cyan" data-tooltip="cyan"></span>
-      <span data-color-picker="true" class="teal" data-tooltip="teal"></span>
-      <span data-color-picker="true" class="green" data-tooltip="green"></span>
-      <span data-color-picker="true" class="lime" data-tooltip="lime"></span>
-      <span
-        data-color-picker="true"
-        class="yellow"
-        data-tooltip="yellow"
-      ></span>
-      <span
-        data-color-picker="true"
-        class="orange"
-        data-tooltip="orange"
-      ></span>
-      <span data-color-picker="true" class="choco" data-tooltip="choco"></span>
-      <span data-color-picker="true" class="brown" data-tooltip="brown"></span>
-      <span data-color-picker="true" class="sand" data-tooltip="sand"></span>
-      <span data-color-picker="true" class="camo" data-tooltip="camo"></span>
-      <span
-        data-color-picker="true"
-        class="jungle"
-        data-tooltip="jungle"
-      ></span>
-    </section>
 
     <section>
-      <h2>About</h2>
+      <h2>TODO color picker oklch hue</h2>
       <p>
         Open Components is a library of components styled with pure CSS. It
         heavily relies on <a href="https://open-props.style/">Open Props</a>.
@@ -120,12 +74,8 @@
       <h3>Getting started</h3>
       <h5>Brand color</h5>
       <p>
-        All you need to do is set a brand color. Hover over the options above to
-        get the color name. Check out the Usage-tab to have a preview of the
-        components in your brands color. These options are from
-        <a href="https://open-props.style/#colors"
-          >the color-scheme on Open Props</a
-        >. However, feel free to use any other color you like.
+        All you need to do is set a brand color in oklch format. OC2 is based on
+        a very light brand color, such as 90% lightness in oklch.
       </p>
 
       <h5>Border radius</h5>
@@ -138,15 +88,18 @@
       <p>These are the default values in Open Components.</p>
       <pre>
 html {
-  --brand: var(--cyan-6);
+  --brand: oklch(90% 0.186 148);
   --default-radius: var(--radius-2);
 }
 </pre
       >
-      <p>Here's an example for a pink theme with straight corners.</p>
+      <p>
+        Here's an example for a pink theme that's a bit darker and with straight
+        corners.
+      </p>
       <pre>
 html {
-  --brand: var(--pink-6);
+  --brand: oklch(80% 0.226 330);
   --default-radius: 0;
 }
 </pre

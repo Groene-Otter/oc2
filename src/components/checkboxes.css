@@ -15,7 +15,7 @@
     opacity: 0;
 
     &:checked ~ :where(.checkmark) {
-      background-color: var(--brand);
+      background-color: color-mix(in srgb, var(--brand) 80%, var(--surface-0));
 
       &:after {
         transform: translate(-50%, -50%) rotate(45deg) scale(1);
@@ -30,7 +30,7 @@
     }
 
     &:checked:disabled ~ :where(.checkmark) {
-      background-color: var(--brand);
+      background-color: color-mix(in srgb, var(--brand) 70%, var(--surface-0));
 
       &:after {
         border-color: var(--gray-3);
@@ -55,7 +55,7 @@
       top: calc(50% - 0.2em / 2);
       width: 0.4em;
       height: 0.8em;
-      border: solid var(--gray-1);
+      border: solid var(--gray-0);
       border-width: 0 0.2em 0.2em 0;
       transform: translate(-50%, -50%) rotate(45deg) scale(0);
       transition: transform 300ms ease-in-out;

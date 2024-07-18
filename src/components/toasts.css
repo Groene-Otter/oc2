@@ -17,7 +17,7 @@
 
   animation: slide-up 0.5s var(--ease-3) forwards,
     slide-up 0.5s var(--ease-3) reverse forwards;
-  animation-delay: 0s, 4s;
+  animation-delay: 0s, 40s;
 
   & :where(button) {
     background: transparent;
@@ -26,6 +26,10 @@
     margin-right: calc(-1 * var(--size-relative-2));
     padding-inline: var(--size-relative-2);
     padding-block: var(--size-relative-1);
+
+    &:hover {
+      background-color: color-mix(in srgb, transparent 85%, var(--surface-0));
+    }
   }
 
   &.early-out {

@@ -3,20 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Open Components</title>
+    <title>Open Components v2</title>
     <link rel="stylesheet" href="./style.css" />
     <script src="./main.ts" type="module"></script>
   </head>
   <body>
     <nav>
-      <h1>Open Components</h1>
+      <h1>Open Components v2</h1>
 
       <div class="menu">
         <button data-theme-switcher class="discrete material-icons">
           light_mode
         </button>
         <a
-          href="https://github.com/RiskChallenger/open-components"
+          href="https://github.com/Groene-Otter/oc2"
           title="Source on GitHub"
           class="button discrete"
         >
@@ -81,8 +81,6 @@
       <p>
         Open Components is a library of components styled with pure CSS. It
         heavily relies on <a href="https://open-props.style/">Open Props</a>.
-        The design and implementation of the components was done by
-        <a href="https://riskchallenger.nl">RiskChallenger</a>.
       </p>
     </section>
 
@@ -95,23 +93,21 @@
     <div id="installation" class="tab-body">
       <h3>Installation</h3>
       <ol>
-        <li><code>npm i @riskchallenger/open-components</code></li>
+        <li><code>npm i @groene-otter/oc2</code></li>
         <li>
           Import main.css in your application, here are some options depending
           on your bundler
           <ol>
             <li>
-              <code>@import "@riskchallenger/open-components/main.css";</code>
+              <code>@import "@groene-otter/oc2/main.css";</code>
             </li>
             <li>
-              <code
-                >@import "npm:@riskchallenger/open-components/main.css";</code
-              >
+              <code>@import "npm:@groene-otter/oc2/main.css";</code>
             </li>
             <li>
               <!-- prettier-ignore -->
               <code
-                >@import "/node_modules/@riskchallenger/open-components/main.css";</code
+                >@import "/node_modules/@groene-otter/oc2/main.css";</code
               >
             </li>
           </ol>
@@ -138,31 +134,20 @@
         to 0. Check the example below
       </p>
 
-      <h5>Font size</h5>
-      <p>
-        If you want to change the font-size, simply do so as in the below
-        examples.
-      </p>
-
       <h5>Examples</h5>
       <p>These are the default values in Open Components.</p>
       <pre>
 html {
   --brand: var(--cyan-6);
   --default-radius: var(--radius-2);
-  --default-font-size: 16px;
 }
 </pre
       >
-      <p>
-        Here's an example for a pink theme with straight corners and smaller
-        text.
-      </p>
+      <p>Here's an example for a pink theme with straight corners.</p>
       <pre>
 html {
   --brand: var(--pink-6);
   --default-radius: 0;
-  --default-font-size: 12px;
 }
 </pre
       >

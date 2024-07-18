@@ -1,6 +1,6 @@
-# Open Components
+# Open Components v2
 
-Docs at https://riskchallenger.github.io/open-components/
+Docs later
 
 - [Installation](#installation)
 - [Getting started](#getting-started)
@@ -9,13 +9,13 @@ Docs at https://riskchallenger.github.io/open-components/
 
 ## Installation
 
-`npm i @riskchallenger/open-components`
+`npm i @groene-otter/oc2`
 
 Import main.css in your application, here are some options depending on your bundler:
 
-- `@import "@riskchallenger/open-components/main.css";`
-- `@import "npm:@riskchallenger/open-components/main.css";`
-- `@import "/node_modules/@riskchallenger/open-components/main.css";`
+- `@import "@groene-otter/oc2/main.css";`
+- `@import "npm:@groene-otter/oc2/main.css";`
+- `@import "/node_modules/@groene-otter/oc2/main.css";`
 
 That's it 😄
 
@@ -30,10 +30,6 @@ All you need to do is set a brand color. Go to the Usage-tab to have a preview o
 
 If you want a straight corner look, simply set the default border radius to 0. Check the example below
 
-### Font size
-
-If you want to change the font-size, simply do so as in the below examples.
-
 ### Examples
 
 These are the default values in Open Components.
@@ -42,23 +38,21 @@ These are the default values in Open Components.
 html {
   --brand: var(--cyan-6);
   --default-radius: var(--radius-2);
-  --default-font-size: 16px;
 }
 ```
 
-Here's an example for a pink theme with straight corners and smaller text.
+Here's an example for a pink theme with straight corners.
 
 ```
 html {
   --brand: var(--pink-6);
   --default-radius: 0;
-  --default-font-size: 12px;
 }
 ```
 
 ## Usage
 
-To learn how to use the components, simply check out the Usage tab on the Open Components website where you can see them all in action with code samples as well. Check here: https://riskchallenger.github.io/open-components/
+To learn how to use the components, simply check out the Usage tab on the Open Components website where you can see them all in action with code samples as well.
 
 ## Implemented components
 

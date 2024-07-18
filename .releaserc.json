@@ -1,6 +1,6 @@
 {
-  "branches": "master",
-  "repositoryUrl": "git@github.com:RiskChallenger/open-components.git",
+  "branches": "main",
+  "repositoryUrl": "git@github.com:Groene-Otter/oc2.git",
   "debug": "true",
   "plugins": [
     "@semantic-release/commit-analyzer",

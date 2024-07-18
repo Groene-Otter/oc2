@@ -1,8 +1,8 @@
 {
-  "name": "@riskchallenger/open-components",
+  "name": "@Groene-Otter/oc2",
   "private": false,
   "version": "1.6.3",
-  "author": "RiskChallenger <info@riskchallenger.nl> (https://riskchallenger.nl)",
+  "author": "Groene Otter",
   "source": "src/main.css",
   "scripts": {
     "build": "parcel build --dist-dir .",
@@ -41,13 +41,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RiskChallenger/open-components.git"
+    "url": "git+https://github.com/Groene-Otter/oc2.git"
   },
-  "description": "Docs at https://riskchallenger.github.io/open-components/",
+  "description": "Docs at https://groene-otter.github.io/oc2/",
   "bugs": {
-    "url": "https://github.com/RiskChallenger/open-components/issues"
+    "url": "https://github.com/Groene-Otter/oc2/issues"
   },
-  "homepage": "https://github.com/RiskChallenger/open-components#readme",
+  "homepage": "https://github.com/Groene-Otter/oc2#readme",
   "directories": {
     "doc": "docs"
   },

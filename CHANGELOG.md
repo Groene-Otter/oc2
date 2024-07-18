@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/Groene-Otter/oc2/compare/v1.0.0...v1.0.1) (2024-07-18)
+
+### Bug Fixes
+
+- remove capital letters from package name ([07164fa](https://github.com/Groene-Otter/oc2/commit/07164fad5b258aa540b2537f81e6f1c1816c37ce))
+
 # 1.0.0 (2024-07-18)
 
 ### Bug Fixes

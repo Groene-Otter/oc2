@@ -5,7 +5,6 @@ body {
   flex-direction: column;
   gap: var(--size-3);
   padding: var(--size-5);
-  font-size: 1rem;
 }
 
 nav {
@@ -30,7 +29,7 @@ section {
   border-radius: var(--default-radius);
   box-shadow: var(--shadow-3);
   border: var(--border-size-1) solid var(--surface-2);
-  background-color: var(--surface-1);
+  background-color: var(--surface-2);
   overflow: auto;
 
   & h2 {
@@ -66,7 +65,7 @@ code {
 
 #usage code,
 pre {
-  background-color: var(--surface-2);
+  background-color: var(--surface-3);
   padding: var(--size-relative-2) var(--size-relative-3);
 }
 

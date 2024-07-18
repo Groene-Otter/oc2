@@ -17,6 +17,7 @@
 @import "components/selects.css";
 @import "components/checkboxes.css";
 @import "components/radios.css";
+@import "components/switches.css";
 @import "components/textareas.css";
 
 @import "components/tabs.css";
@@ -26,7 +27,7 @@
 @import "components/scrollbars.css";
 
 :where(html) {
-  --brand: var(--cyan-6);
+  --brand: oklch(90% 0.186 148);
   --default-radius: var(--radius-2);
   --default-animation-time: 300ms;
 

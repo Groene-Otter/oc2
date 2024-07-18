@@ -1,3 +1,46 @@
+# 1.0.0 (2024-07-18)
+
+### Bug Fixes
+
+- add padding to end of file input for other languages ([33a13a4](https://github.com/Groene-Otter/oc2/commit/33a13a480941a02069329f4ef0004f6a8da284b9)), closes [#12](https://github.com/Groene-Otter/oc2/issues/12)
+- align styling of checks/radios with other inputs ([39b6164](https://github.com/Groene-Otter/oc2/commit/39b6164b05602637dee133da0e71382c15e3df0b)), closes [#6](https://github.com/Groene-Otter/oc2/issues/6)
+- allow combination of tooltips and buttons ([24fe876](https://github.com/Groene-Otter/oc2/commit/24fe87640b9a26c85a4d95199f303b758a94dc9e))
+- allow for other modal headings ([2e0c6d7](https://github.com/Groene-Otter/oc2/commit/2e0c6d7ceae15494de9d75ac991fcf51bf2ec374))
+- allow for tooltips on material-icons ([f143411](https://github.com/Groene-Otter/oc2/commit/f143411a9e150aaf089d4bb1bdf11756b9fcc56e)), closes [#15](https://github.com/Groene-Otter/oc2/issues/15)
+- bring outline button background in line ([7897e87](https://github.com/Groene-Otter/oc2/commit/7897e8701da9d7e9ba6433ac9d20ae2a22ce17fb))
+- change input type mail to email ([7255e14](https://github.com/Groene-Otter/oc2/commit/7255e14e88615540a2ef8077eb8284d83db8feee)), closes [#10](https://github.com/Groene-Otter/oc2/issues/10)
+- change media query syntax for better browser support ([dd2e7ff](https://github.com/Groene-Otter/oc2/commit/dd2e7ff99ef5543d18782149fd89b5ee92d6a21f)), closes [#13](https://github.com/Groene-Otter/oc2/issues/13)
+- correct discrete hover/active background ([edbb751](https://github.com/Groene-Otter/oc2/commit/edbb7515e8865e5f2e49a93d5268c38241691227))
+- correct naming for new fork ([5a78498](https://github.com/Groene-Otter/oc2/commit/5a78498b4dd2f1a4d2dcf63066bd4d71c920f036))
+- improve disabled look of buttons ([e724f50](https://github.com/Groene-Otter/oc2/commit/e724f50e1857a08a53a7e55980948c241dc8f0fd))
+- improve disabled styling on checkbox, radio, select ([6239e5b](https://github.com/Groene-Otter/oc2/commit/6239e5b44a3df42e0a238d4c787cbf7a49de7c5a)), closes [#11](https://github.com/Groene-Otter/oc2/issues/11)
+- improve flexibility of modal structure ([31ba03f](https://github.com/Groene-Otter/oc2/commit/31ba03fa2d5bcc35834f96d46e87f230156a1fc9))
+- improve input visibility with higher contrast ([c718c31](https://github.com/Groene-Otter/oc2/commit/c718c3107c2bca7067532687d91f1091e220b63c))
+- make extended props work with manual theme switching ([bddda36](https://github.com/Groene-Otter/oc2/commit/bddda36f6049d43c4d8b62f258f45c2d4f782f03))
+- make modals scrollable with long content ([6c9249a](https://github.com/Groene-Otter/oc2/commit/6c9249ab06280ede41ecb2de0e7df7aabe83abff))
+- move from px to rem for font size ([eba57a0](https://github.com/Groene-Otter/oc2/commit/eba57a02231f77e497c31fd9ee922b9c93be1dc1)), closes [#5](https://github.com/Groene-Otter/oc2/issues/5)
+- put icon button size in line with other buttons ([1286135](https://github.com/Groene-Otter/oc2/commit/128613540f70f5bad7a83c615031f124e382ef64)), closes [#9](https://github.com/Groene-Otter/oc2/issues/9)
+- remove default padding from body ([2079015](https://github.com/Groene-Otter/oc2/commit/207901590a18d67aa156cb13b69a513591076389))
+- remove interaction from tooltips, update packages ([e1072f9](https://github.com/Groene-Otter/oc2/commit/e1072f9f25d08d9f12c6c977b3f5b897efdbfab1))
+- set correct file for unpkg publishing ([a2bacf9](https://github.com/Groene-Otter/oc2/commit/a2bacf908fe669ac41bca2fcffb59db133d55853))
+- set correct package name ([8810bf2](https://github.com/Groene-Otter/oc2/commit/8810bf265df1a87a3adc526d76c6bb2b10d052cf))
+- set correct selector for inputs ([a8d0cbc](https://github.com/Groene-Otter/oc2/commit/a8d0cbc6edb8146326c172df95219bf2af92f03c))
+- set danger colours consistently ([babc0c8](https://github.com/Groene-Otter/oc2/commit/babc0c8b94f9ec087e494b17c8f4ebd67455a2a0))
+- show form buttons correctly ([c99fda6](https://github.com/Groene-Otter/oc2/commit/c99fda67739a950741fc7dd65fd986c324c42ed6))
+- show tooltips on one line ([b81a3e6](https://github.com/Groene-Otter/oc2/commit/b81a3e66d743c43df82acb9a4f23406e50dfb921))
+- simplify button states, fix active tab border ([8ff1fee](https://github.com/Groene-Otter/oc2/commit/8ff1fee5598619699d16392ee0a75353c5a87eed))
+- slightly better range input ([bf77040](https://github.com/Groene-Otter/oc2/commit/bf77040fe5b0e5fcc505c07e14fb3d83aad6196d))
+
+### Features
+
+- add basic range input ([29ea848](https://github.com/Groene-Otter/oc2/commit/29ea848103936febdf30300e9a91a640f6ec9669))
+- add button groups ([09904ee](https://github.com/Groene-Otter/oc2/commit/09904eea4ea082cb0a70ad5887bb8d918184e05b))
+- add danger and warning buttons, upgrade dependencies ([8e4ee81](https://github.com/Groene-Otter/oc2/commit/8e4ee81df363d0ddadc69836c8dd3767005f25c7))
+- add disabled state for tabs ([f245d21](https://github.com/Groene-Otter/oc2/commit/f245d213b04eea66a4ed0448803c3ef4de62caae)), closes [#8](https://github.com/Groene-Otter/oc2/issues/8)
+- add scrollbar styling and fix some overflow issues ([8b2618a](https://github.com/Groene-Otter/oc2/commit/8b2618a6ef2d2d67da19e9c6347f4749f6a96174))
+- add textareas and file inputs ([283d9af](https://github.com/Groene-Otter/oc2/commit/283d9af0dd82839538f3326341e53e2260b99029))
+- respect system ui fonts ([d8c98ed](https://github.com/Groene-Otter/oc2/commit/d8c98eddb45c2817de995fa9877a8c292b2a8fd8)), closes [#16](https://github.com/Groene-Otter/oc2/issues/16)
+
 ## [1.6.3](https://github.com/RiskChallenger/open-components/compare/v1.6.2...v1.6.3) (2024-05-14)
 
 ### Bug Fixes

@@ -1,3 +1,9 @@
+## [1.1.1](https://github.com/Groene-Otter/oc2/compare/v1.1.0...v1.1.1) (2024-08-29)
+
+### Bug Fixes
+
+- set correct version, attempt 2 ([f2fff75](https://github.com/Groene-Otter/oc2/commit/f2fff757829b14190b8c92d6453d6463cd239478))
+
 # [1.1.0](https://github.com/Groene-Otter/oc2/compare/v1.0.1...v1.1.0) (2024-08-29)
 
 ### Bug Fixes

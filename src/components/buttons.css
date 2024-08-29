@@ -14,6 +14,7 @@
 
   color: var(--gray-12);
   font-weight: var(--font-weight-5);
+  text-decoration: none;
 
   transition: background-color var(--default-animation-time) ease-in-out;
 

@@ -1,16 +1,28 @@
 export const initColorPicker = () => {
-  document.querySelectorAll("[data-color-picker]").forEach((el) => {
-    el.addEventListener("click", setColor);
-    (el as HTMLElement).style.setProperty(
-      "background-color",
-      `var(--${el.classList[0]}-6)`
-    );
+  let lightness = Math.round(Math.random() * 100);
+  let chroma = Math.round(Math.random() * 37) / 100;
+  let hue = Math.round(Math.random() * 360);
+  // setColor(`oklch(${lightness}% ${chroma} ${hue})`);
+
+  document
+    .querySelector('[name="lightness"]')
+    ?.addEventListener("input", (e) => {
+      lightness = +(e.target as HTMLInputElement).value;
+      setColor(`oklch(${lightness}% ${chroma} ${hue})`);
+    });
+  document.querySelector('[name="chroma"]')?.addEventListener("input", (e) => {
+    chroma = +(e.target as HTMLInputElement).value;
+    setColor(`oklch(${lightness}% ${chroma} ${hue})`);
+  });
+  document.querySelector('[name="hue"]')?.addEventListener("input", (e) => {
+    hue = +(e.target as HTMLInputElement).value;
+    setColor(`oklch(${lightness}% ${chroma} ${hue})`);
   });
 };
 
-function setColor(event: Event) {
-  const target = event.target as HTMLElement;
-  const color = target.classList[0];
+function setColor(color: string) {
+  console.log(color);
+
   const root = document.querySelector(":root") as HTMLElement;
-  root.style.setProperty("--brand", `var(--${color}-6)`);
+  root.style.setProperty("--brand", color);
 }

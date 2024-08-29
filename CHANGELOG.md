@@ -3,6 +3,17 @@
 ### Bug Fixes
 
 - remove underline from anchor buttons ([489229b](https://github.com/Groene-Otter/oc2/commit/489229b78d890067e46fe4e8f1a08d3a9e528fbb))
+- set correct version ([9b59d39](https://github.com/Groene-Otter/oc2/commit/9b59d392aeacf0044a919b6769230ec15392a660))
+
+### Features
+
+- improve many small things with new style ([c50e62a](https://github.com/Groene-Otter/oc2/commit/c50e62ae5794fdc8ff8834b5639e2f64c193a565))
+
+# [1.1.0](https://github.com/Groene-Otter/oc2/compare/v1.0.1...v1.1.0) (2024-08-29)
+
+### Bug Fixes
+
+- remove underline from anchor buttons ([489229b](https://github.com/Groene-Otter/oc2/commit/489229b78d890067e46fe4e8f1a08d3a9e528fbb))
 
 ### Features
 

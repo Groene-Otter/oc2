@@ -1,3 +1,9 @@
+# [1.2.0](https://github.com/Groene-Otter/oc2/compare/v1.1.1...v1.2.0) (2024-09-04)
+
+### Features
+
+- remove oklch for consistency ([6d9e456](https://github.com/Groene-Otter/oc2/commit/6d9e456a97f86d2061f2c85311370f737f7cb21d))
+
 ## [1.1.1](https://github.com/Groene-Otter/oc2/compare/v1.1.0...v1.1.1) (2024-08-29)
 
 ### Bug Fixes

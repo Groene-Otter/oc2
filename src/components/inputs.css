@@ -26,10 +26,6 @@
     color: var(--text-3);
   }
 
-  &:where(.invalid) {
-    outline: var(--border-size-1) solid oklch(from var(--brand) 50% c 30);
-  }
-
   &[type="search"] {
     padding-inline-start: calc(2 * var(--size-relative-2) + 24px);
     background-image: url("/public/search_icon.svg");
@@ -71,6 +67,13 @@
     padding: 0;
     padding-inline-end: var(--size-relative-3);
     background-color: var(--surface-0);
+  }
+
+  &[type="color"] {
+    padding-inline: var(--size-relative-1);
+    padding-block: var(--size-relative-1);
+    width: var(--size-7);
+    height: var(--size-7);
   }
 }
 

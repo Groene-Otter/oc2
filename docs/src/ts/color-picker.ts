@@ -1,23 +1,10 @@
 export const initColorPicker = () => {
-  let lightness = Math.round(Math.random() * 100);
-  let chroma = Math.round(Math.random() * 37) / 100;
-  let hue = Math.round(Math.random() * 360);
-  // setColor(`oklch(${lightness}% ${chroma} ${hue})`);
-
   document
-    .querySelector('[name="lightness"]')
+    .querySelector('input[type="color"]')
     ?.addEventListener("input", (e) => {
-      lightness = +(e.target as HTMLInputElement).value;
-      setColor(`oklch(${lightness}% ${chroma} ${hue})`);
+      const color = (e.target as HTMLInputElement).value;
+      setColor(color);
     });
-  document.querySelector('[name="chroma"]')?.addEventListener("input", (e) => {
-    chroma = +(e.target as HTMLInputElement).value;
-    setColor(`oklch(${lightness}% ${chroma} ${hue})`);
-  });
-  document.querySelector('[name="hue"]')?.addEventListener("input", (e) => {
-    hue = +(e.target as HTMLInputElement).value;
-    setColor(`oklch(${lightness}% ${chroma} ${hue})`);
-  });
 };
 
 function setColor(color: string) {

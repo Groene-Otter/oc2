@@ -27,9 +27,10 @@
 @import "components/scrollbars.css";
 
 :where(html) {
-  --brand: oklch(90% 0.186 148);
+  --brand: #7ca6ff;
   --default-radius: var(--radius-2);
   --default-animation-time: 300ms;
+  caret-color: var(--text-1);
 
   @media (prefers-reduced-motion: reduce) {
     --default-animation-time: 0s;

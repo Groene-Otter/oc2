@@ -15,7 +15,7 @@
     opacity: 0;
 
     &:checked ~ :where(.checkmark) {
-      background-color: color-mix(in srgb, var(--brand) 80%, var(--surface-0));
+      background-color: color-mix(in srgb, var(--brand) 70%, black);
 
       &:after {
         transform: translate(-50%, -50%) rotate(45deg) scale(1);
@@ -30,7 +30,7 @@
     }
 
     &:checked:disabled ~ :where(.checkmark) {
-      background-color: color-mix(in srgb, var(--brand) 70%, var(--surface-0));
+      background-color: color-mix(in srgb, var(--brand) 50%, black);
 
       &:after {
         border-color: var(--gray-3);

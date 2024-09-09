@@ -1,3 +1,9 @@
+## [1.2.1](https://github.com/Groene-Otter/oc2/compare/v1.2.0...v1.2.1) (2024-09-09)
+
+### Bug Fixes
+
+- change pointer behaviour for disabled buttons ([0f92cdd](https://github.com/Groene-Otter/oc2/commit/0f92cdd315814d92114d65caeac581cdc3d334f4))
+
 # [1.2.0](https://github.com/Groene-Otter/oc2/compare/v1.1.1...v1.2.0) (2024-09-04)
 
 ### Features

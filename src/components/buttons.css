@@ -28,7 +28,7 @@
   }
 
   &:disabled {
-    pointer-events: none;
+    cursor: not-allowed;
     background-color: color-mix(in srgb, var(--button-color) 60%, white);
   }
 

@@ -89,8 +89,8 @@
   }
 
   &.material-icons {
-    padding-inline: var(--size-2);
-    padding-block: var(--size-2);
+    padding-inline: var(--size-relative-2);
+    padding-block: var(--size-relative-2);
   }
 
   & span.material-icons {

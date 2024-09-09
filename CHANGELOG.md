@@ -1,3 +1,9 @@
+## [1.2.2](https://github.com/Groene-Otter/oc2/compare/v1.2.1...v1.2.2) (2024-09-09)
+
+### Bug Fixes
+
+- use relative size on icon buttons ([8c9f0b6](https://github.com/Groene-Otter/oc2/commit/8c9f0b6422cef99f8ce144c1a85ff5c7fbb56262))
+
 ## [1.2.1](https://github.com/Groene-Otter/oc2/compare/v1.2.0...v1.2.1) (2024-09-09)
 
 ### Bug Fixes

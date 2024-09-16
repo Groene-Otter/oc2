@@ -1,16 +1,17 @@
 :where(html) {
   --surface-0: white;
-  --surface-contrast: var(--gray-9);
+  --text-3: var(--gray-6);
   --surface-neutral: var(--gray-5);
-  --text-3: var(--gray-6); /* same for light and dark */
-  --text-contrast: var(--gray-0);
+  --surface-contrast: var(--gray-12);
+  --text-contrast: var(--gray-1);
 }
 
 @media (prefers-color-scheme: dark) {
   :where(html) {
-    --surface-0: var(--gray-10);
-    --surface-contrast: var(--gray-0);
+    --surface-0: var(--gray-12);
+    --text-3: var(--gray-5);
     --surface-neutral: var(--gray-6);
-    --text-contrast: var(--gray-9);
+    --surface-contrast: white;
+    --text-contrast: var(--gray-12);
   }
 }

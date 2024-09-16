@@ -1,6 +1,7 @@
 :where([data-theme="light"], .light, .light-theme) {
   --surface-0: white;
-  --surface-contrast: var(--gray-10);
+  --text-3: var(--gray-6);
   --surface-neutral: var(--gray-5);
-  --text-contrast: var(--gray-0);
+  --surface-contrast: var(--gray-12);
+  --text-contrast: var(--gray-1);
 }

@@ -1,3 +1,9 @@
+## [1.2.3](https://github.com/Groene-Otter/oc2/compare/v1.2.2...v1.2.3) (2024-09-16)
+
+### Bug Fixes
+
+- improve a11y and consistency ([b525fe3](https://github.com/Groene-Otter/oc2/commit/b525fe377ce735b902ba6170e7749bee58d65fd9))
+
 ## [1.2.2](https://github.com/Groene-Otter/oc2/compare/v1.2.1...v1.2.2) (2024-09-09)
 
 ### Bug Fixes

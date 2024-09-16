@@ -1,7 +1,7 @@
 {
   "name": "@groene-otter/oc2",
   "private": false,
-  "version": "1.2.2",
+  "version": "1.2.3",
   "author": "Groene Otter",
   "source": "src/main.css",
   "scripts": {

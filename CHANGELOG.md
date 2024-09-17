@@ -1,3 +1,9 @@
+# [1.3.0](https://github.com/Groene-Otter/oc2/compare/v1.2.3...v1.3.0) (2024-09-17)
+
+### Features
+
+- switch from material icons to phosphor icons ([8849b44](https://github.com/Groene-Otter/oc2/commit/8849b447086c70d3fbac377191cea6e12963af2e))
+
 ## [1.2.3](https://github.com/Groene-Otter/oc2/compare/v1.2.2...v1.2.3) (2024-09-16)
 
 ### Bug Fixes

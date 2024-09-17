@@ -88,12 +88,15 @@
     }
   }
 
-  &.material-icons {
+  &:has(.ph) {
     padding-inline: var(--size-relative-2);
-    padding-block: var(--size-relative-2);
+
+    &:has(.left, .right) {
+      padding-inline: var(--size-relative-3);
+    }
   }
 
-  & span.material-icons {
+  & .ph {
     &.left {
       margin-left: calc(-1 * var(--size-relative-1));
     }

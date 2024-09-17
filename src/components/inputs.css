@@ -28,32 +28,39 @@
 
   &[type="search"] {
     padding-inline-start: calc(2 * var(--size-relative-2) + 24px);
-    background-image: url("/public/search_icon.svg");
+    background-image: url("/public/magnifying-glass.svg");
     background-position: var(--size-relative-2) center;
     background-size: var(--size-relative-5);
   }
 
   &[type="email"] {
     padding-inline-start: calc(2 * var(--size-relative-2) + 24px);
-    background-image: url("/public/email_icon.svg");
+    background-image: url("/public/envelope-simple.svg");
     background-position: var(--size-relative-2) center;
     background-size: var(--size-relative-5);
   }
 
   &[type="password"] {
     padding-inline-start: calc(2 * var(--size-relative-2) + 24px);
-    background-image: url("/public/lock_icon.svg");
+    background-image: url("/public/password.svg");
+    background-position: var(--size-relative-2) center;
+    background-size: var(--size-relative-5);
+  }
+
+  &[type="tel"] {
+    padding-inline-start: calc(2 * var(--size-relative-2) + 24px);
+    background-image: url("/public/phone.svg");
     background-position: var(--size-relative-2) center;
     background-size: var(--size-relative-5);
   }
 
   &[type="text"][list] {
-    background-image: url("/public/chevron_down.svg");
+    background-image: url("/public/caret-down.svg");
     background-position: calc(100% - 0.5em) center;
     background-size: var(--size-relative-5);
 
     &:focus {
-      background-image: url("/public/chevron_up.svg");
+      background-image: url("/public/caret-up.svg");
     }
 
     &::-webkit-calendar-picker-indicator {

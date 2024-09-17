@@ -6,9 +6,7 @@ export const initThemeSwitcher = () => {
       console.log(e);
       prefersDark = !prefersDark;
 
-      (e.target as HTMLButtonElement).innerText = prefersDark
-        ? "light_mode"
-        : "dark_mode";
+      (e.target as HTMLButtonElement).innerText = prefersDark ? "sun" : "moon";
       document.documentElement.setAttribute(
         "data-theme",
         prefersDark ? "dark" : "light"

@@ -19,7 +19,7 @@
     z-index: var(--layer-important);
     white-space: nowrap;
 
-    /* Explicitly set font in case of tooltip on material-icons */
+    /* Explicitly set font in case of tooltip on icons */
     font-family: var(--font-sans);
     font-size: var(--font-size-1);
     pointer-events: none;

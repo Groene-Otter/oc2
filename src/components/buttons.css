@@ -88,7 +88,7 @@
     }
   }
 
-  &:has(.ph) {
+  &:has(.ph, ng-icon) {
     padding-inline: var(--size-relative-2);
 
     &:has(.left, .right) {
@@ -96,7 +96,8 @@
     }
   }
 
-  & .ph {
+  .ph,
+  ng-icon {
     &.left {
       margin-left: calc(-1 * var(--size-relative-1));
     }

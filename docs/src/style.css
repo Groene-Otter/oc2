@@ -32,7 +32,7 @@ section {
   background-color: var(--surface-2);
   overflow: auto;
 
-  & h2 {
+  h2 {
     margin-block-end: var(--size-5);
   }
 }
@@ -54,7 +54,7 @@ section {
   gap: var(--size-5);
   white-space: nowrap;
 
-  & .header {
+  .header {
     font-weight: var(--font-weight-7);
   }
 }
@@ -84,13 +84,13 @@ pre {
 }
 
 :is([data-theme="light"], .light, .light-theme) {
-  & .github-icon path {
+  .github-icon path {
     fill: black;
   }
 }
 
 :is([data-theme="dark"], .dark, .dark-theme) {
-  & .github-icon path {
+  .github-icon path {
     fill: white;
   }
 }

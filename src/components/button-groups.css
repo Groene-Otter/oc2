@@ -1,7 +1,7 @@
 :where(.button-group) {
   display: flex;
 
-  & > * {
+  > * {
     border-radius: 0;
 
     &:not(:last-child) {
@@ -9,11 +9,11 @@
     }
   }
 
-  & > :first-child {
+  > :first-child {
     border-top-left-radius: var(--default-radius);
     border-bottom-left-radius: var(--default-radius);
   }
-  & > :last-child {
+  > :last-child {
     border-top-right-radius: var(--default-radius);
     border-bottom-right-radius: var(--default-radius);
   }

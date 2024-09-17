@@ -8,7 +8,7 @@
     background-color: var(--surface-2);
   }
 
-  & :where(input) {
+  :where(input) {
     position: absolute;
     height: 0;
     width: 0;
@@ -38,7 +38,7 @@
     }
   }
 
-  & :where(.checkmark) {
+  :where(.checkmark) {
     position: absolute;
     inset: 0;
     height: var(--size-relative-5);

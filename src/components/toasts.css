@@ -19,7 +19,7 @@
     slide-up 0.5s var(--ease-3) reverse forwards;
   animation-delay: 0s, 40s;
 
-  & :where(button) {
+  :where(button) {
     background: transparent;
     color: var(--text-contrast);
     margin-block: calc(-1 * var(--size-relative-2));

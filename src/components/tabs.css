@@ -3,7 +3,7 @@
   border-bottom: var(--border-size-1) solid var(--gray-5);
   overflow: auto;
 
-  & > :where(*) {
+  > :where(*) {
     display: flex;
     align-items: center;
     gap: var(--size-relative-1);

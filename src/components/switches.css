@@ -16,7 +16,7 @@
     );
   }
 
-  & input {
+  input {
     position: absolute;
     height: 0;
     width: 0;
@@ -48,7 +48,7 @@
     }
   }
 
-  & .slider {
+  .slider {
     position: absolute;
     inset: 0;
     height: var(--size-relative-5);

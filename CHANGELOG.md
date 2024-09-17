@@ -1,3 +1,9 @@
+## [1.3.1](https://github.com/Groene-Otter/oc2/compare/v1.3.0...v1.3.1) (2024-09-17)
+
+### Bug Fixes
+
+- style ng-icons correctly ([90b7c42](https://github.com/Groene-Otter/oc2/commit/90b7c42e1c94b38d8ab3f3aa88988d076265bdd9))
+
 # [1.3.0](https://github.com/Groene-Otter/oc2/compare/v1.2.3...v1.3.0) (2024-09-17)
 
 ### Features

@@ -1,3 +1,9 @@
+# [1.5.0](https://github.com/Groene-Otter/oc2/compare/v1.4.0...v1.5.0) (2024-09-25)
+
+### Features
+
+- improve modal design ([c99defd](https://github.com/Groene-Otter/oc2/commit/c99defd745a2041ff800fee0d7e21e57acfa582d))
+
 # [1.4.0](https://github.com/Groene-Otter/oc2/compare/v1.3.1...v1.4.0) (2024-09-25)
 
 ### Features

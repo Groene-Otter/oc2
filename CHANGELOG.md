@@ -1,3 +1,9 @@
+# [1.4.0](https://github.com/Groene-Otter/oc2/compare/v1.3.1...v1.4.0) (2024-09-25)
+
+### Features
+
+- add 500ms delay to tooltips showing ([5261d1d](https://github.com/Groene-Otter/oc2/commit/5261d1d2874a24c13a3874dc48525a357d9145c7))
+
 ## [1.3.1](https://github.com/Groene-Otter/oc2/compare/v1.3.0...v1.3.1) (2024-09-17)
 
 ### Bug Fixes

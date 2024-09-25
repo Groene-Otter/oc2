@@ -28,5 +28,6 @@
   &:hover:before {
     display: block;
     animation: var(--animation-fade-in) forwards;
+    animation-delay: 500ms;
   }
 }

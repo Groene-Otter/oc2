@@ -88,6 +88,16 @@
     }
   }
 
+  &.small {
+    padding-inline: var(--size-relative-2);
+    padding-block: var(--size-relative-1);
+  }
+
+  &.big {
+    padding-inline: var(--size-relative-5);
+    padding-block: var(--size-relative-3);
+  }
+
   &:has(.ph, ng-icon) {
     padding-inline: var(--size-relative-2);
 

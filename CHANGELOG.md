@@ -1,3 +1,9 @@
+# [1.6.0](https://github.com/Groene-Otter/oc2/compare/v1.5.0...v1.6.0) (2025-07-04)
+
+### Features
+
+- add small and big buttons ([c3b290b](https://github.com/Groene-Otter/oc2/commit/c3b290b2a404391464b77a7f2cea39ad6fc53cfb))
+
 # [1.5.0](https://github.com/Groene-Otter/oc2/compare/v1.4.0...v1.5.0) (2024-09-25)
 
 ### Features
